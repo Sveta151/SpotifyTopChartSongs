@@ -101,6 +101,8 @@ Visual encoding:
 This interesting word cloud shows us what are the all-time most popular music pieces on Spotify. Songs like Dance Monkey, All I want for Christmas is you and Shallow are the best of the best among the all-time favorite songs.
 
 
+<img width="539" alt="Screenshot 2022-07-12 at 17 58 04" src="https://user-images.githubusercontent.com/46090129/178464712-5b78b522-ca3a-43a6-87be-1d4fae695a7f.png">
+
 ### Covid-Valence correlation 
 The other data set is from ourworldindata.org showing us the daily covid cases worldwide split into different countries. This chart compares the average valence of the popular songs in 2020 and 2021 using a line chart on the primary y-axis, with the total number of worldwide cases using a continuous area chart on the secondary y-axis. The x-axis is based on weeks. A slider was added for us to narrow down the visualization to a particular period.
 The reason why I chose this chart type is that we can compare two variables’ trends easily. Secondly, using different types of charts to show the two variables makes it easier to distinguish between variables.
@@ -110,5 +112,5 @@ Visual encoding:
 - y-axis: Value of the attribute 
 
 This chart suggests that there may be some connection between the number of new covid cases and songs that people listen to. A possible explanation is that when covid first appears, it really affects people’s lives a lot. And at that time(2020) people tend to listen to positive music because they feel frustrated and unsafe about their condition.
-<img width="1066" alt="Screenshot 2022-07-12 at 17 53 02" src="https://user-images.githubusercontent.com/46090129/1784635![Uploading Screenshot 2022-07-12 at 17.58.04.png…]()
-89-97738002-fed2-46b3-9a34-74f7f81b816f.png">
+
+<img width="1066" alt="Screenshot 2022-07-12 at 17 53 02" src="https://user-images.githubusercontent.com/46090129/178464767-a85f66a8-de98-4b20-ab7b-9ea8bd84da4d.png">
