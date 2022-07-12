@@ -67,7 +67,7 @@ Through this line chart, we can tell that rock used to be the most popular genre
 <img width="790" alt="Screenshot 2022-07-12 at 17 34 26" src="https://user-images.githubusercontent.com/46090129/178459709-4bbb8b5b-5c0d-45a5-9155-14c469f5c81f.png">
 
 
-## Change of Genre composition in 1960-2010 period
+### Change of Genre composition in 1960-2010 period
 Next is the bubble plot split into the decade bins. The size of the bubble is determined by the number of songs of that genre in that particular year. The more songs there are, the bigger the bubble. 
 To show the change of genre composition over decades, we can also use pie charts, the reason why we use bubble charts is that although it is less intuitive about proportions, it is more interesting and can show variables with smaller proportions more clearly.
 Visual encoding:
@@ -77,3 +77,28 @@ Here we can see that pop and rock songs have been consistently the top 2 genres 
 
 
 <img width="821" alt="Screenshot 2022-07-12 at 17 41 26" src="https://user-images.githubusercontent.com/46090129/178461159-f60469e5-fe76-4f84-85bb-4387e2884ce0.png">
+
+
+### Change of the features of popular songs in 1950-2010 perio
+The next chart is a line chart based on 4 attributes, have been used the average function to find out the general trend over the decades. I plotted it on the same x axis using the decade bins. Initially I wanted to do the analysis for all the attributes but a few of them were almost flat, so I picked these 4 with the most variance and coloured them differently. 
+Line chart here is the most proper choice for chart because it's the best chart to show trends.
+Visual encoding:
+- x-axis: Time
+- y-axis: Average value of the feature
+
+This visualization shows that the songs’ average Energy and Loudness, are increasing over time. On the other hand, the average Valence and Acousticness are decreasing.
+
+
+<img width="481" alt="Screenshot 2022-07-12 at 17 44 46" src="https://user-images.githubusercontent.com/46090129/178461869-b1be0fac-2667-4bab-8814-549b6f3e371a.png">
+
+
+### Covid-Valence correlation 
+The other data set is from ourworldindata.org showing us the daily covid cases worldwide split into different countries. This chart compares the average valence of the popular songs in 2020 and 2021 using a line chart on the primary y-axis, with the total number of worldwide cases using a continuous area chart on the secondary y-axis. The x-axis is based on weeks. A slider was added for us to narrow down the visualization to a particular period.
+The reason why I chose this chart type is that we can compare two variables’ trends easily. Secondly, using different types of charts to show the two variables makes it easier to distinguish between variables.
+Visual encoding:
+- Color: Type of attribute
+- x-axis: Time
+- y-axis: Value of the attribute 
+
+This chart suggests that there may be some connection between the number of new covid cases and songs that people listen to. A possible explanation is that when covid first appears, it really affects people’s lives a lot. And at that time(2020) people tend to listen to positive music because they feel frustrated and unsafe about their condition.
+<img width="1066" alt="Screenshot 2022-07-12 at 17 53 02" src="https://user-images.githubusercontent.com/46090129/178463589-97738002-fed2-46b3-9a34-74f7f81b816f.png">
