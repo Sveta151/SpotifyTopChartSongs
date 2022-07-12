@@ -30,3 +30,16 @@ The COVID-19 dataset we chose is a collection of the COVID-19 data maintained by
 - location
 - date
 - new_cases: the number of new COVID-19 cases on the day
+
+
+## Data pre-processing
+The first problem that have been faced in this project is that Spotify has a very large variety of genres which are very specific and not suitable for analysis. For example, in the dataset “all-time top spotify songs” there were 194 different genres. If we try to visualize it, we cannot see any dependencies. To overcome this problem, we labeled each genre manually. We decided to use the following labels: alternative, blues, country, dance, electro, folk, hip hop, jazz, metal, national specific, pop, rock and soul. Using Python and one-hot encoding as a result we assign each of the songs to some genre. In our format, one song can be categorized into 2 or more genres. Here is a part of the table that have been used for labeling:
+| Old version | New version |
+| ------ | ------ |
+| Adult standards | Pop |
+| Album rock | Rock |
+| Alernative pop rock | Pop |
+| Alernative pop rock | Rock |
+| Dutch indie | Alernative |
+
+
