@@ -91,6 +91,15 @@ This visualization shows that the songs’ average Energy and Loudness, are incr
 
 <img width="481" alt="Screenshot 2022-07-12 at 17 44 46" src="https://user-images.githubusercontent.com/46090129/178461869-b1be0fac-2667-4bab-8814-549b6f3e371a.png">
 
+### Popular songs in 1950-2010 period
+
+Have been made a word cloud based on the popularity score of the top 30 songs.The higher the popularity score, the larger the words. Have been chosen only 2 attributes - popularity and song title for the visualization to be clean.
+Visual encoding:
+- Color: Name of the song
+- Size: Popularity of the song
+
+This interesting word cloud shows us what are the all-time most popular music pieces on Spotify. Songs like Dance Monkey, All I want for Christmas is you and Shallow are the best of the best among the all-time favorite songs.
+
 
 ### Covid-Valence correlation 
 The other data set is from ourworldindata.org showing us the daily covid cases worldwide split into different countries. This chart compares the average valence of the popular songs in 2020 and 2021 using a line chart on the primary y-axis, with the total number of worldwide cases using a continuous area chart on the secondary y-axis. The x-axis is based on weeks. A slider was added for us to narrow down the visualization to a particular period.
@@ -101,4 +110,5 @@ Visual encoding:
 - y-axis: Value of the attribute 
 
 This chart suggests that there may be some connection between the number of new covid cases and songs that people listen to. A possible explanation is that when covid first appears, it really affects people’s lives a lot. And at that time(2020) people tend to listen to positive music because they feel frustrated and unsafe about their condition.
-<img width="1066" alt="Screenshot 2022-07-12 at 17 53 02" src="https://user-images.githubusercontent.com/46090129/178463589-97738002-fed2-46b3-9a34-74f7f81b816f.png">
+<img width="1066" alt="Screenshot 2022-07-12 at 17 53 02" src="https://user-images.githubusercontent.com/46090129/1784635![Uploading Screenshot 2022-07-12 at 17.58.04.png…]()
+89-97738002-fed2-46b3-9a34-74f7f81b816f.png">
