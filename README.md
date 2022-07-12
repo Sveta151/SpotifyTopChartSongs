@@ -10,3 +10,23 @@ The target audience is anyone who is interested in music and wants to know more 
 For dataset have been used all-time top 2000s Spotify data set consisting of famous songs from the 50s to present. This allows us to look at the musci taste trends over the decades. Also for more detailed information have been used top charts in Spotify songs fro years 2019, 2020 and 2021. Comparing these datasets with data of Covid cases allows us to analyze how world situation with covid can influence trends in music. 
 
 
+## Data descriptions
+Dataset from Spotify contains audio statistics of tracks on Spotify. The data contains about 15 columns each describing the track and its qualities. The dataset includes many song features, such as:
+ - energy: an integer, a score out of 100, the higher the value, the more energetic the song
+ - Loudness: in decibels, the higher the value, the louder the song
+ - vallence: an integer, a score of out 100, the higher the value, the more positive mood a song has
+ - loudness: an integer, a score of out 100, the higher the value, the louder the song
+ - popularity: an integer, a score of out 100, the higher the value the more popular the song is
+ - country: based on the country of origin of the artist. Plotting this on the world map we can find out the number of songs from different country origins
+
+Dateset with top 200 charts also includes the following informations of the songs:
+- song name: Name of the song that has been on the Spotify Top 200 Weekly Global Charts in 2020 & 2021
+- highest charting position: The highest position that the song has been on in the Spotify Top 200 Weekly Global Charts in 2020 & 2021.
+- week of highest charting: the week when the song had the Highest Position in the Spotify Top 200 Weekly Global Charts in 2020 & 2021
+- weeks charted: The weeks that the song has been on in the Spotify Top 200 Weekly Global Charts in 2020 & 2021
+
+### COVID-19 dataset
+The COVID-19 dataset we chose is a collection of the COVID-19 data maintained by Our World in Data. It’s updated daily throughout the duration of the COVID-19 pandemic. It includes tons of columns, but we only use the following ones:
+- location
+- date
+- new_cases: the number of new COVID-19 cases on the day
