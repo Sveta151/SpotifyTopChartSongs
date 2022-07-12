@@ -65,3 +65,15 @@ Through this line chart, we can tell that rock used to be the most popular genre
 
 
 <img width="790" alt="Screenshot 2022-07-12 at 17 34 26" src="https://user-images.githubusercontent.com/46090129/178459709-4bbb8b5b-5c0d-45a5-9155-14c469f5c81f.png">
+
+
+## Change of Genre composition in 1960-2010 period
+Next is the bubble plot split into the decade bins. The size of the bubble is determined by the number of songs of that genre in that particular year. The more songs there are, the bigger the bubble. 
+To show the change of genre composition over decades, we can also use pie charts, the reason why we use bubble charts is that although it is less intuitive about proportions, it is more interesting and can show variables with smaller proportions more clearly.
+Visual encoding:
+- Color: Name of the genre
+- Size: Number of songs that belong to the genre
+Here we can see that pop and rock songs have been consistently the top 2 genres over the decades. We can find out many interesting changes. For example, pop gradually takes the No.1 place of all genres. Alternative music gradually becomes popular. Metal music used to be popular, but it's not that popular anymore since the 2010s.
+
+
+<img width="821" alt="Screenshot 2022-07-12 at 17 41 26" src="https://user-images.githubusercontent.com/46090129/178461159-f60469e5-fe76-4f84-85bb-4387e2884ce0.png">
