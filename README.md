@@ -42,4 +42,13 @@ The first problem that have been faced in this project is that Spotify has a ver
 | Alernative pop rock | Rock |
 | Dutch indie | Alernative |
 
+Our second problem is that there were no columns with countries. Have been found a dataset with artists and their associated countries and used Python to join the tables so that we have the country of origin of each song. It was also possible that one artist can be associated with several countries.
+All new datasets have been added.
+
+## Data visualization 
+
+### Popularity of pop and rock songs in 1950-2010 period
+
+
+
 
