@@ -48,7 +48,20 @@ All new datasets have been added.
 ## Data visualization 
 
 ### Popularity of pop and rock songs in 1950-2010 period
+The first chart in the story describes the count of songs with pop and rock genres over the decades. Initially, I wanted to do it for all genres, but the graph proved too confusing, the trends were erratic, so I chose the 2 most popular ones.  We used the bin function to sort the songs into decades based on the year of release so we can have a cleaner visualization.  
+Reason for a dual-axis line chart is that it can show and compare the trends of the two varables very well.
+Visual encoding:
+- x-axis: Time
+- y-axis: Count of songs
+
+Queries that can be asked:
+- How does the amount of pop and rock music change by decades?
+- In each decade, are there more pop music or rock music?
+- In which decade did pop music overtake rock music. 
+Through this line chart, we can tell that rock used to be the most popular genre. But pop music gradually caught up with rock in popularity, overtaking rock as the most popular genre in the 2000s.
 
 
 
 
+
+<img width="790" alt="Screenshot 2022-07-12 at 17 34 26" src="https://user-images.githubusercontent.com/46090129/178459709-4bbb8b5b-5c0d-45a5-9155-14c469f5c81f.png">
